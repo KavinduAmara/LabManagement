@@ -6,6 +6,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <title>Lab Appointment System - Appointment Management</title>
+      <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
       <!-- Custom styles -->
       <style>
@@ -75,13 +76,14 @@
              return "";
          }
          %>
+      <!-- Page content -->
       <div class="content">
          <div class="card">
             <div class="card-header">
                <h2 class="text-center">Appointment Management</h2>
             </div>
             <div class="card-body">
-            
+               <!-- CRUD Operations -->
                <div class="mb-3">
                   <a href="AppoinmentAdd.jsp" class="btn btn-primary">Add Appointment</a>
                </div>
@@ -135,13 +137,20 @@
                </table>
             </div>
          </div>
-         <div class="modal fade" id="addAppointmentModal" tabindex="-1" aria-labelledby="addAppointmentModalLabel" aria-hidden="true">         
+         <!-- Add Appointment Modal -->
+         <div class="modal fade" id="addAppointmentModal" tabindex="-1" aria-labelledby="addAppointmentModalLabel" aria-hidden="true">
+            <!-- Modal content goes here -->
          </div>
-         <div class="modal fade" id="editAppointmentModal" tabindex="-1" aria-labelledby="editAppointmentModalLabel" aria-hidden="true">         
+         <!-- Edit Appointment Modal -->
+         <div class="modal fade" id="editAppointmentModal" tabindex="-1" aria-labelledby="editAppointmentModalLabel" aria-hidden="true">
+            <!-- Modal content goes here -->
          </div>
+         <!-- Delete Appointment Modal -->
          <div class="modal fade" id="deleteAppointmentModal" tabindex="-1" aria-labelledby="deleteAppointmentModalLabel" aria-hidden="true">
+            <!-- Modal content goes here -->
          </div>
       </div>
+      <!-- Bootstrap JS and Popper.js (for Bootstrap's JavaScript components) -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
    </body>
 </html>
